@@ -1,0 +1,204 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEA30"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        1.
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card1"
+            android:onClick="Card1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shop"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shopping"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAlignment="center"
+                    android:layout_margin="43dp"
+                    android:paddingLeft="100dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card2"
+            android:onClick="Card2"
+            android:layout_below="@id/card1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/enter"
+                    android:layout_margin="5dp"
+                    android:paddingRight="18dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingLeft="100dp"
+                    android:paddingTop="50dp"
+                    android:text="Entertainment"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card3"
+            android:onClick="Card3"
+            android:layout_below="@id/card2"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/recharge"
+                    android:layout_margin="10dp"
+                    android:paddingRight="18dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rechare/Bill Payments"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAlignment="center"
+                    android:layout_margin="35dp"
+                    android:paddingLeft="100dp"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card4"
+            android:onClick="Card4"
+            android:layout_below="@id/card3"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="10dp"
+                    android:paddingLeft="18dp"
+                    android:src="@drawable/food" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Food Orders"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAlignment="center"
+                    android:layout_margin="43dp"
+                    android:paddingLeft="100dp"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        5.
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card5"
+            android:onClick="Card5"
+            android:layout_below="@id/card4"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/taxi"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Cabs"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAlignment="center"
+                    android:layout_margin="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="100dp"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

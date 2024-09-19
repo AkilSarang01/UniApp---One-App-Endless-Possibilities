@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FBB00D"
+    tools:context=".Billpay"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        1.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b1"
+            android:onClick="B1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/amazon_pay_logo"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b2"
+            android:onClick="B2"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/gpay"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b3"
+            android:onClick="B3"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/b1"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/upi"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b4"
+            android:onClick="B4"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/b2"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/unnamed"
+                    android:padding="10dp"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        5.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b5"
+            android:onClick="B5"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/b4"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/phonepe"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        6.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/b6"
+            android:onClick="B6"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/b4"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/tm"
+                    android:padding="10dp"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>

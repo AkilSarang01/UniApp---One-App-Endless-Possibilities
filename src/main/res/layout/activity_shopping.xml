@@ -1,0 +1,243 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <TextView-->
+<!--            android:id="@+id/shp1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:fontFamily="@font/amaranth"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Shopping"-->
+<!--            android:textColor="@color/Holo"-->
+<!--            android:background="@android:color/white"-->
+<!--            android:textSize="50sp" />-->
+        1.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c1"
+            android:onClick="C1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/amz"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/amz2"
+                    android:layout_margin="10dp"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c2"
+            android:onClick="C2"
+            app:cardElevation="25dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="40dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/flip"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/flip"
+                    android:layout_margin="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c3"
+            android:onClick="C3"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:padding="100dp"
+            android:layout_below="@id/c1"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/myn"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/myntra1" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c4"
+            android:onClick="C4"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/c2"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/jab"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/grofers"
+                    android:layout_margin="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        5.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c5"
+            android:onClick="C5"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/c4"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/snap"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/snap"
+                    android:layout_margin="15dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        6.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c6"
+            android:onClick="C6"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/c4"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pay"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/paytmmalls"
+                    android:layout_margin="15dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        7.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c7"
+            android:onClick="C7"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/c6"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/bigbasket"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        8.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/c8"
+            android:onClick="C8"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/c6"
+            android:layout_alignParentRight="true"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/zop"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#B6E609"
+    android:orientation="vertical"
+    tools:context=".cabs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        1.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/a1"
+            android:onClick="A1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/ola"
+                    android:layout_margin="5dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/a2"
+            android:onClick="A2"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/uber"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/a3"
+            android:onClick="A3"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:padding="100dp"
+            android:layout_below="@id/a1"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/myn"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:padding="14dp"
+                    android:src="@drawable/savari" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/a4"
+            android:onClick="A4"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/a2"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/merr"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
